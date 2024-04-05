@@ -6,6 +6,8 @@ Jede Funktion ist zuständig für das Rendern einer spezifischen Seite innerhalb
 indem sie ein HTTP-Request-Objekt empfängt und als Antwort ein gerendertes HTML-Template zurückgibt.
 Diese Funktionen sind direkt mit den URL-Pfaden im `urls.py`-Modul des Shop-Bereichs verknüpft,
 was die Darstellung der entsprechenden Seiten im Webbrowser ermöglicht.
+
+~ Thomas Tannenberg, 2024
 """
 
 from django.shortcuts import render
