@@ -1,8 +1,8 @@
 """
 HAUPT URL KLASSE
-djangoShopGFN/djangoShopGFN/urls.py
+djangoShop/djangoShop/urls.py
 
-Dieses Modul konfiguriert die zentralen URL-Routen der Django-Anwendung djangoShopGFN.
+Dieses Modul konfiguriert die zentralen URL-Routen der Django-Anwendung djangoShop.
 Es ist dafür zuständig, die oberste Ebene der URL-Navigation zu definieren,
 indem es sowohl die standardmäßigen Django-Admin-Pfade als auch die Anwendungs-spezifischen Pfade,
 die in anderen Modulen definiert sind, einschließt.

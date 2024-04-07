@@ -1,5 +1,34 @@
-<a href="{%  url 'shop' %}">Shop</a>
-<a href="{%  url 'warenkorb' %}">Warenkorb</a>
-<a href="{%  url 'kasse' %}">Kasse</a>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg shadow p-3 mb-4" style="background-color: #5D737E;">
+    <!-- Moderner Blaugrau-Farbton -->
+    <div class="container-fluid">
+        <!-- Logo und Titel der Website, fungiert als Link zur Startseite -->
+        <a class="navbar-brand link-light" href="{% url 'shop' %}"Shop Menu</a>
 
-<hr>
+        <!-- Toggler Button: Wird auf kleinen Bildschirmen angezeigt, um die Navigation einzublenden -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigationslinks -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- Navbar-Elemente rechts ausrichten mit ms-auto -->
+            <div class="navbar-nav ms-auto">
+                <!-- Einzelne Navigationslinks -->
+                <a class="nav-link link-light p-2" href="#">Login</a> <!-- Link zum Einloggen -->
+                <a class="nav-link link-light p-2" href="{% url 'warenkorb' %}">Warenkorb</a>
+                <!-- Link zum Warenkorb -->
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+

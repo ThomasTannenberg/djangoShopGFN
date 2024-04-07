@@ -1,0 +1,43 @@
+/* Grundlegende Styling-Parameter */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Hintergrundfarbe der Seite */
+}
+
+/* Navbar-Styling */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Weichere Schattierung für die Navbar */
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #ffffff !important; /* Stellt sicher, dass die Link-Farben überschrieben werden */
+    transition: color 0.3s ease-in-out; /* Sanfte Übergangseffekte für Hover */
+}
+
+/* Hover-Effekte für Navbar Links */
+.nav-link:hover, .navbar-brand:hover {
+    color: #cadeef !important; /* Hellere Farbe beim Darüberfahren */
+}
+
+/* Warenkorb und Login spezifisches Styling */
+.navbar .navbar-nav .nav-link {
+    margin-right: 10px; /* Abstand zwischen den Links */
+}
+
+/* Responsive Verhalten */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #5D737E; /* Hintergrundfarbe für kollabierte Navbar auf kleinen Bildschirmen */
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        padding: 10px 15px; /* Größere Klickbereiche auf kleineren Bildschirmen */
+    }
+}

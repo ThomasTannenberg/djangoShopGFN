@@ -1,9 +1,9 @@
 """
 URL KLASSE von shop
-djangoShopGFN/djangoShopGFN/shop/urls.py
+djangoShop/djangoShop/shop/urls.py
 
 Dieses Modul definiert die URL-Konfiguration für den 'shop'-Bereich
-der Django-Anwendung djangoShopGFN. Es importiert Django's 'path'-Funktion
+der Django-Anwendung djangoShop. Es importiert Django's 'path'-Funktion
 sowie die View-Funktionen aus dem aktuellen Modul, um die URL-Pfade mit den entsprechenden
 Views zu verknüpfen. Die 'urlpatterns'-Liste enthält die Pfade, die definiert werden,
 einschließlich der Hauptseite des Shops, des Warenkorbs und der Kasse.
